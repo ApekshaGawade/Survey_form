@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+}
+.container {
+    background-size:auto;
+    height: auto;
+    background-color: rgba(0,0,0,0.7);
+    font-family: 'Poppins', sans-serif;
+    background-position: center;
+    background-image:linear-gradient(115deg, rgba(58,58,158,0.8),rgba(136,136,206,0.7)),url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+}
+#title, #description
+{
+    text-align: center;
+    padding-top:50px;
+    color:white;
+}
+#description
+{
+    padding-top:20px;
+    padding-bottom:30px;
+}
+.form
+{
+    background-color: rgba(27, 27, 50, 0.7);
+    max-width:650px;
+    border-radius:8px;
+    padding:40px;
+    margin: auto;
+}
+#survey-form
+{
+    color:rgb(226, 221, 221);
+}
+.form-grp
+{
+    font-size:18px;
+    font-weight:bold;
+    padding:8px 20px 15px 15px;
+    font-family:'Poppins', sans-serif;
+}
+.field
+{
+    margin-top:8px;
+    width:100%;
+    font-size: 18px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+label
+{
+    display: flex;
+    align-items: center;
+    line-height: 1.6em;
+}
+.rad {
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+.sep
+{
+    padding-top:7px;
+}
+#comments
+{
+    border-radius: 0px;
+    font-family: inherit;
+    font-size: 18px;
+    height: 120px;
+}
+button
+{
+    background-color:#37af65;
+    color:rgb(226, 221, 221);
+    border-color: #37af65;
+    font-size: 12px;
+}

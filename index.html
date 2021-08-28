@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+
+<div class="form">
+<form id="survey-form">
+        <div class="form-grp">
+             <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" class="field" required>
+        </div>
+        <div class="form-grp">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Enter your Email" class="field" required> 
+        </div>
+        <div class="form-grp">
+            <label for="number" id="number-label">Age (optional)</label>
+            <input type="number" id="number" placeholder="Age" class="field" min=1 max=100>
+        </div>
+        <div class="form-grp">
+            <label for="dropdown" id="dropdown-label">Which option best describes your current role?</label>
+            <select id="dropdown" type="dropdown" class="field">
+                <label>
+                    <option  id="role" default selected disabled>Select Current role</option>
+                </label>
+                <label>
+                    <option  id="student">Student</option>
+                </label>
+                <label>
+                    <option  id="job">Full time Job</option>
+                </label>
+                <label>
+                    <option  id="learner">Full time learner</option>
+                </label>
+                <label>
+                    <option  id="not-say">Prefer not to say</option>
+                </label>
+                <label></label>
+                    <option  id="other">Other</option>
+                </label>
+            </select>
+        </div>
+        <div class="form-grp">
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <div class="sep">
+                <label>
+                    <input type="radio" class="rad" id="recommend" name="recommend" value="definitely">Definitely
+                </label>
+                <label>
+                    <input type="radio" class="rad" id="recommend" name="recommend" value="maybe">Maybe
+                </label>
+                <label>
+                    <input type="radio" class="rad" id="recommend" name="recommend" value="not sure">Not Sure
+                </label>
+            </div>
+        </div>
+        <div class="form-grp">
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <div class="sep">
+            <label>
+                <input type="checkbox" value="front end projects" class="rad">Front end projects
+            </label>
+            <label>
+                <input type="checkbox" value="back end projects" class="rad">Back end projects
+            </label>
+            <label>
+                <input type="checkbox" value="data visualization" class="rad">Data Visualization
+            </label>
+            <label>
+                <input type="checkbox" value="Challenges" class="rad">Challenges
+            </label>
+            <label>
+                <input type="checkbox" value="open source" class="rad">Open Source Community
+            </label>
+            <label>
+                <input type="checkbox" value="gitter help" class="rad">Gitter help rooms
+            </label>
+            <label>
+                <input type="checkbox" value="Videos" class="rad">Videos
+            </label>
+            <label>
+                <input type="checkbox" value="City" class="rad">City Meetups
+            </label>
+            <label>
+                <input type="checkbox" value="Wiki" class="rad">Wiki
+            </label>
+            <label>
+                <input type="checkbox" value="Forum" class="rad">Forum
+            </label>
+            <label>
+                <input type="checkbox" value="Additional" class="rad">Additional Courses
+            </label>
+        </div>
+        </div>
+        <div class="form-grp">
+            <p>Any comments or suggestions?</p>
+                <textarea class="field" id="comments" name="comments" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <div class="form-grp">
+            <button id="submit" class="field">Submit</button>
+        </div>
+  </form>
+</div>
+</div>
+</body>
+</html>
